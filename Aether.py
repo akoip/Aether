@@ -20,9 +20,20 @@ def listen_for_command():
     with sr.Microphone() as source:
         recognizer.adjust_for_ambient_noise(source)
         print("Listening...")
-        audio = recognizer.listen(source)
-        command = recognizer.recognize_google(audio)
-        return command.lower()
+        try:
+            audio = recognizer.listen(source, timeout=5, phrase_time_limit=10)
+            command = recognizer.recognize_google(audio)
+            print(f"Recognized command: {command}")
+            return command.lower()
+        except sr.UnknownValueError:
+            speak("Sorry, I didn't understand that.")
+            return ""
+        except sr.RequestError:
+            speak("Speech recognition service unavailable.")
+            return ""
+        except Exception as e:
+            print(f"Error: {e}")
+            return ""
 
 # Sample function to open application
 def open_application(command):
